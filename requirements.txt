@@ -1,0 +1,9 @@
+fastapi>=0.68.0
+uvicorn>=0.15.0
+pydantic>=1.8.0
+pyyaml>=5.4.0
+python-multipart>=0.0.5
+requests>=2.25.0
+email-validator>=1.1.0
+celery>=5.2.0
+redis>=4.0.0

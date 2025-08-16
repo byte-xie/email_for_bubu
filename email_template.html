@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 引入外部字体（可选，可让字体更美观 ） -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PingFang+SC:wght@400;500;700&display=swap">
+  <style>
+    /* 全局样式重置与基础设置 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'PingFang SC', sans-serif;
+    }
+
+    body {
+      background-color: #f8f9fb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    /* 容器样式，模拟卡片效果 */
+    .code-container {
+      width: 320px;
+      background-color: #fff;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+    }
+
+    /* 顶部蓝色标题栏 */
+    .code-header {
+      background-color: #007bff;
+      color: #fff;
+      text-align: center;
+      padding: 14px 0;
+    }
+
+    .code-header h2 {
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .code-header p {
+      font-size: 12px;
+      margin-top: 2px;
+      opacity: 0.9;
+    }
+
+    /* 内容区域，包含手机号和验证码 */
+    .code-content {
+      padding: 16px;
+      text-align: center;
+    }
+
+    .code-content p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 12px;
+    }
+
+    /* 验证码数字容器，让数字方块横向排列 */
+    .code-numbers {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    /* 单个验证码数字样式 */
+    .code-number {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #dcdcdc;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="code-container">
+    <!-- 标题区域 -->
+    <div class="code-header">
+      <h2>验证码通知</h2>
+      <p>您的手机验证码已发送</p>
+    </div>
+    <!-- 内容区域 -->
+    <div class="code-content">
+      <p>验证码</p>
+      <div class="code-numbers">
+        <div class="code-number">6</div>
+        <div class="code-number">4</div>
+        <div class="code-number">2</div>
+        <div class="code-number">9</div>
+        <div class="code-number">5</div>
+        <div class="code-number">1</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
