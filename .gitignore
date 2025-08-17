@@ -169,9 +169,9 @@ ehthumbs.db
 Thumbs.db
 
 # Project specific exclusions
-email_for_bubu_env/
-email.log
-config.yaml
+email_service/email_for_bubu_env/
+email_service/email.log
+email_service/config.yaml
 *.pyc
 .pytest_cache
 __pycache__
@@ -185,3 +185,7 @@ test_*.py
 *.log
 *.tmp
 *.bak
+
+OPTIMIZATION_GUIDE.md
+系统资源监控工具开发方案.md
+项目优化方向与扩展建议.md

@@ -1,0 +1,19 @@
+email:
+  sender:
+    address: "1735055113@qq.com"
+    password: "iytrcymqyfkpddhb"
+    smtp_server: "smtp.qq.com"
+    smtp_port: 465
+  recipients:
+    - "byte_xie@163.com"
+    # - "2741619187@qq.com"
+
+
+# email:
+#   sender:
+#     address: "byte_xie@163.com"
+#     password: "WHsLJPYRk3EpmgxA"
+#     smtp_server: "smtp.163.com"
+#     smtp_port: 465
+#   recipients:
+#     - "1735055113@qq.com"
